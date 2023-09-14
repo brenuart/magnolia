@@ -1,0 +1,9 @@
+label: Header
+form:
+    properties:
+        image:
+            label: Logo
+            $type: damLinkField
+        pageLink:
+            label: Page Link
+            $type: pageNorsuLinkField

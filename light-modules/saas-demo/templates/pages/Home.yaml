@@ -1,0 +1,16 @@
+title: Magnetic - Home
+dialog: saas-demo:pages/Home
+$type: siteSpa # See "sites" definitions to see more merged-in configuration.
+
+areas:
+    header:
+        title: Header Area
+        dialog: saas-demo:components/Header
+        availableComponents:
+            pageLink:
+                id: saas-demo:components/Link
+    main:
+        title: Main Area
+        availableComponents:
+            section:
+                id: saas-demo:components/Section

@@ -1,0 +1,6 @@
+title:
+    label: Title
+    $type: textField
+link:
+    label: Link
+    $type: pageNorsuLinkField

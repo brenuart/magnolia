@@ -1,0 +1,24 @@
+label: Banner
+form:
+    properties:
+        supTitle:
+            label: Sub title
+            $type: textField
+            i18n: true
+        title:
+            label: Title
+            $type: textField
+            i18n: true
+        text:
+            label: Text
+            $type: textField
+            i18n: true
+        image:
+            label: Image
+            $type: damLinkField
+        pageLink:
+            label: Page Link
+            $type: pageNorsuLinkField
+        ctaTitle:
+            label: Title
+            $type: textField
